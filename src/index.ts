@@ -117,7 +117,7 @@ async function postDailyReportFormData(
 
     const formData = await getDailyReportFormData(client);
 
-    await sleep(randomBetween(1000, 2000));
+    await sleep(randomBetween(3000, 4000));
 
     console.log("正在提交今日疫情填报信息");
 
